@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.width{
+    width: 1080px;
+}
+
+.header{
+    background: #707070;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    width: 200px;
+    height: 30px;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    padding-right: 45px;
+}
+
+.pt1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #f8e71c;
+    text-transform: uppercase;
+}
+
+.star-wars{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pt2{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.green{
+    width: 265px;
+    height: 265px;
+    background: #b8e986;
+    border-radius: 25px;
+}
+
+.orange{
+    width: 475px;
+    height: 250px;
+    background: #FFC44F;
+}
+
+.ipsum{
+    width: 400px;
+    height: 225px;
+    font-size: 14px;
+}
+
+.image{
+    width: 400px;
+    height: 225px;
+    background-image: url(https://ichef.bbci.co.uk/news/410/cpsprodpb/14976/production/_110624348_eminem.jpg);
+}
+
+.footer{
+    background: #543d6b;
+    width: 100%;
+    height: 10vh;
+}
+
